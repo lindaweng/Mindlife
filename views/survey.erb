@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chat Bot</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/navBarDropdown.css" rel="stylesheet"
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Mindlife</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#survey">Survey</a>
+            </li>
+            <!--<li class="nav-item">-->
+            <!--  <a class="nav-link js-scroll-trigger" href="#services">Services</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+            <!--  <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+            <!--  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>-->
+            <!--</li>-->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex" style="background:linear-gradient(to left, #B4A8FF, #886DD6); background-image: transparent">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Survey</strong>
+            </h1>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="chatBot">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+              <form class="form-inline" method="POST" action="/submit" style="text-align: left" id="survey">
+                <h4>1. Please explain if you have ever had little or no interest in doing things over the past 2 weeks:</h4>
+                <textarea type="text" name="ans1" style="width: 100%"></textarea>
+                <h4>2. Please explain if you have ever felt down, depressed, or hopeless in the past 2 weeks:</h4>
+                <textarea type="text" name="ans2" style="width: 100%"></textarea>
+                <h4>3. Please explain if you have had  Trouble falling or staying asleep, or sleeping too much over the past two weeks:</h4>
+                <textarea type="text" name="ans3" style="width: 100%"></textarea>
+                <h4>4. Please explain if you have felt tired or having little energy over the past 2 weeks:</h4>
+                <textarea type="text" name="ans4" style="width: 100%"></textarea>
+                <h4>5. Please explain if you have had poor appetite or overeating over the past 2 weeks:</h4>
+                <textarea type="text" name="ans5" style="width: 100%"></textarea>
+                <h4>6. Please explain if you have felt bad about yourself - or that you are a failure or have let yourself or your family down over the past 2 weeks:</h4>
+                <textarea type="text" name="ans6" style="width: 100%"></textarea>
+                <h4>7. Please explain if you have had trouble concentrating on things, such as reading the newspaper or watching television over the past 2 weeks:</h4>
+                <textarea type="text" name="ans7" style="width: 100%"></textarea>
+                <h4>8. Please explain if you have moved or spoke so slowly that other people could have noticed over the past 2 weeks:</h4>
+                <textarea type="text" name="ans8" style="width: 100%"></textarea>
+                <h4>9. Please explain if you have had thoughts that you would be better off dead, or of hurting yourself over the past 2 weeks:</h4>
+                <textarea type="text" name="ans9" style="width: 100%"></textarea>
+                <h4>10. Please explain if the problems you have described above have made it difficult at work, home, or with other people?</h4>
+                <textarea type="text" name="ans10" style="width: 100%"></textarea>
+                <input type="submit" class = "btn btn-default" >
+              </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
